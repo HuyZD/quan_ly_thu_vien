@@ -97,8 +97,8 @@ const IssueBook = () => {
       <div className="details__container">
         <div className="student__details">
           {/* SEARCH SECTION */}
-          <h3>Tìm kiếm sinh viên</h3>
-          <p>Tìm sinh viên muốn mượn sách.</p>
+          <h3>Tìm kiếm người dùng</h3>
+          <p>Tìm người dùng muốn mượn sách.</p>
           <form onSubmit={searchStudent}>
             <div className="form-control">
               <input type="text" placeholder="Tìm kiếm theo email" name="email" />
