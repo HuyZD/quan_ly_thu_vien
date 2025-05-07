@@ -32,7 +32,7 @@ class StudentController {
       });
       if (isRollNumberExist) {
         return next(
-          ErrorHandlerService.alreadyExist("Số điện thoại đã tồn tại")
+          ErrorHandlerService.alreadyExist("MSV đã tồn tại")
         );
       }
 

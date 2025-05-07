@@ -58,7 +58,7 @@ const ReturnedBookList = () => {
               <td>ID</td>
               <td>Tiêu đề</td>
               <td>Tên người dùng</td>
-              <td>Số điện thoại/Email</td>
+              <td>MSV/Email</td>
               <td>Ngày trả </td>
             </tr>
           </thead>

@@ -106,7 +106,7 @@ const IssueBook = () => {
             <div className="form-control">
               <input
                 type="text"
-                placeholder="Tìm kiếm theo số điện thoại"
+                placeholder="Tìm kiếm theo MSV"
                 name="rollNumber"
               />
             </div>
@@ -123,7 +123,7 @@ const IssueBook = () => {
                 <td>{userData?.user?.name}</td>
               </tr>
               <tr>
-                <th>Số điện thoại</th>
+                <th>MSV</th>
                 <td>{userData?.user?.rollNumber}</td>
               </tr>
 

@@ -172,7 +172,7 @@ const ManageStudent = () => {
       <div className="filter">
         <input
           type="text"
-          placeholder="Tìm kiếm theo số điện thoại...."
+          placeholder="Tìm kiếm theo msv...."
           className="background__accent text"
           value={query.rollNumber}
           onChange={(e) => {
@@ -211,7 +211,7 @@ const ManageStudent = () => {
         <table className="background__accent" cellSpacing="0" cellPadding="0">
           <thead className="bg__secondary">
             <tr>
-              <td>Số điện thoại</td>
+              <td>MSV</td>
               <td>Ảnh đại diện</td>
               <td>Tên</td>
               <td>Email</td>
@@ -304,10 +304,10 @@ const ManageStudent = () => {
           
 
           <div className="form-control">
-            <label htmlFor="rollNumber">Số điện thoại</label>
+            <label htmlFor="rollNumber">MSV</label>
             <input
               type="text"
-              placeholder="Nhập số điện thoại"
+              placeholder="MSV"
               name="rollNumber"
               className="bg text__color"
               value={formData.rollNumber}
@@ -365,10 +365,10 @@ const ManageStudent = () => {
           </div>
 
           <div className="form-control">
-            <label htmlFor="rollNumber">Số điện thoại</label>
+            <label htmlFor="rollNumber">MSV</label>
             <input
               type="text"
-              placeholder="Nhập số điện thoại"
+              placeholder="MSV"
               name="rollNumber"
               className="bg text__color"
               value={formData.rollNumber}

@@ -146,7 +146,7 @@ const ManageIssueBooks = () => {
         />
         <input
           type="text"
-          placeholder="Tìm kiếm theo số điện thoại...."
+          placeholder="Tìm kiếm theo msv...."
           className="background__accent text"
           value={query.rollNumber}
           onChange={(e) => {
@@ -181,7 +181,7 @@ const ManageIssueBooks = () => {
               <td>ID</td>
               {/* <td>Title</td> */}
               {/* <td>User Name</td> */}
-              <td>Số điện thoại/Email</td>
+              <td>MSV/Email</td>
               <td>Ngày mượn</td>
               <td>Ngày hết hạn</td>
               <td>Phí phạt</td>

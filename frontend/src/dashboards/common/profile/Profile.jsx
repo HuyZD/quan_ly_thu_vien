@@ -92,7 +92,7 @@ const Profile = () => {
             {user?.role === "Student" && (
               <>
                 <tr>
-                  <th>Số điện thoại</th>
+                  <th>MSV</th>
                   <td>{user?.rollNumber}</td>
                 </tr>
               </>

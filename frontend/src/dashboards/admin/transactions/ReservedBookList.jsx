@@ -58,7 +58,7 @@ const ReservedBookList = () => {
               <td>ID</td>
               <td>Tiêu đề</td>
               <td>tên người dùng</td>
-              <td>Số điện thoại/Email</td>
+              <td>MSV/Email</td>
               <td>Ngày đặt</td>
             </tr>
           </thead>
