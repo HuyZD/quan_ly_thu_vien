@@ -230,7 +230,7 @@ const ManageAlmirah = () => {
             <label htmlFor="number">Số thứ tự tủ sách</label>
             <input
               type="text"
-              placeholder="Enter almirah number"
+              placeholder="Nhập số thứ tự tủ sách"
               name="number"
               className="bg text__color"
               value={formData.number}
