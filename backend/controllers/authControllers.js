@@ -193,7 +193,7 @@ class AuthController {
       // console.log(`Email Send ! Your password reset link is ${resetToken}`);
       await sendMail({
         to: user.email,
-        from: "giangvanhuy84@gmail.com",
+        from: "ghuy26014@gmail.com",
         subject: "Thư viện UET gửi Link thay đổi mật khẩu mới",
         text: `Xin chào  ${user.name} ! Link thay đổi mật khẩu :   http://localhost:5173/new-password/${resetToken}/, Ấn vào để thay đổi`,
       });
