@@ -10,14 +10,14 @@ const EmailSent = () => {
           <div className="bg__primary email__icon__box">
             <AiOutlineMail/>
           </div>
-          <h5 style={{textAlign:"center",margin:"10px 0"}}>Check your mail</h5>
-          <p>We have sent a password recovery link to your mail</p>
+          <h5 style={{textAlign:"center",margin:"10px 0"}}>Kiểm tra gmail của bạn </h5>
+          <p>Chúng tôi đã gửi một liên kết khôi phục mật khẩu đến email của bạn</p>
           <div style={{textAlign:"center",margin:"20px 0"}}>
             <a
               href="https://mail.google.com/mail/u/0/#inbox"
               className="btn btn__primary"
             >
-              VISIT MAIL
+              VÀO GMAIL
             </a>
           </div>
         </div>

@@ -193,9 +193,9 @@ class AuthController {
       // console.log(`Email Send ! Your password reset link is ${resetToken}`);
       await sendMail({
         to: user.email,
-        from: "gvh@vnu.edu.vn",
-        subject: "GGC Library Password Reset Link",
-        text: `Hello ${user.name} ! Your password reset link is  http://localhost:5173/new-password/${resetToken}/, Click on that link in order to change password`,
+        from: "giangvanhuy84@gmail.com",
+        subject: "Thư viện UET gửi Link thay đổi mật khẩu mới",
+        text: `Xin chào  ${user.name} ! Link thay đổi mật khẩu :   http://localhost:5173/new-password/${resetToken}/, Ấn vào để thay đổi`,
       });
       return res.status(200).json({ msg: "Email send...." });
     } catch (error) {
@@ -215,7 +215,7 @@ class AuthController {
       userData = await tokenService.verifyPasswordResetToken(token);
     } catch (error) {
       return next(
-        ErrorHandlerService.badRequest("Password reset token expire !")
+        ErrorHandlerService.badRequest("Không thể thay mới mật khẩu !")
       );
     }
 

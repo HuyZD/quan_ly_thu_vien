@@ -219,7 +219,7 @@ const ManageIssueBooks = () => {
                     {i.fine <= 0 ? (
                       <span>-</span>
                     ) : i.isPaid ? (
-                      <span>Đã thanh toàn</span>
+                      <span>Đã thanh toán</span>
                     ) : (
                       <span>Chưa thanh toán</span>
                     )}
@@ -262,7 +262,7 @@ const ManageIssueBooks = () => {
       <Modal title="Pay Fine" show={showFineModal} onClose={closeFineModal}>
         <form onSubmit={onPayFine}>
           <div className="form-control">
-            <label htmlFor="transaction__id">Transaction ID</label>
+            <label htmlFor="transaction__id">Mã giao dịch</label>
             <input
               type="text"
               className="bg"
@@ -271,7 +271,7 @@ const ManageIssueBooks = () => {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="transaction__id">ID</label>
+            <label htmlFor="transaction__id">ID Sách</label>
             <input
               type="text"
               className="bg"

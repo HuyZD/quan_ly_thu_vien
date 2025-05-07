@@ -14,7 +14,7 @@ const Pagination = ({ currentPage, setCurrentPage, data }) => {
   return (
     <div className="pagination">
       <span>
-        Hiển thị {startIndex}-{endIndex} / {data?.totalRecords} trang
+        {/* Hiển thị {startIndex}-{endIndex} / {data?.totalRecords} trang */}
       </span>
       <div className="pagination">
         <button

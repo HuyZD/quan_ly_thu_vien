@@ -8,6 +8,7 @@ async function sendMail({ to, from=ADMIN_MAIL, subject, text, html }) {
     from : ${from},
     text : ${text}
   `);
+  
   let transporter = nodemailer.createTransport({
     host: SMTP_HOST,
     port: SMTP_PORT,

@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom">
-      <span> &copy;2023 Bản quyền: Hệ thống Quản lý Thư viện UET, Huy Giang </span>
+      <span> &copy;2025 Bản quyền: Hệ thống Quản lý Thư viện UET </span>
       </div>
     </footer>
   );

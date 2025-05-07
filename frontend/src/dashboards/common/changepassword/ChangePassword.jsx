@@ -39,7 +39,7 @@ const ChangePassword = () => {
   return (
     <div className="changepassword__wrapper">
       <div className="heading">
-        <h1>THay đổi mật khẩu</h1>
+        <h1>Thay đổi mật khẩu</h1>
       </div>
 
       <form onSubmit={handleSubmit}>

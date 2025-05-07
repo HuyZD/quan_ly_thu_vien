@@ -34,7 +34,7 @@ const ForgetPassword = () => {
                 <label htmlFor="email">Email</label>
                 <input type="email" name="email" />
             </div>
-            <button className="btn btn__primary">SUBMIT</button>
+            <button className="btn btn__primary">XÁC NHẬN</button>
             <Link to="/login" className="text__color">Quay lại đăng nhập ? </Link>
         </form>
         

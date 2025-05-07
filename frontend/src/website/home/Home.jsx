@@ -57,7 +57,7 @@ const Home = () => {
           <div className="heading">
             <h1>Lời giới thiệu </h1>
           </div>
-          <p> Chào mừng bạn đến với Hệ thống Quản lý Thư viện của Trường Đại học Công Nghệ - Đại học quốc gia Hà NộiNội</p>
+          <p> Chào mừng bạn đến với Hệ thống Quản lý Thư viện của Trường Đại học Công Nghệ - Đại học quốc gia Hà Nội</p>
           <p> Thư viện hiện đại và hoàn toàn tự động của chúng tôi chắc chắn là một Trung tâm Tài nguyên Thông
             tin tiên tiến, đáp ứng những nhu cầu ngày càng thay đổi của khách hàng học thuật của chúng tôi
             .Mục tiêu của Thư viện UET là cung cấp các tài nguyên thông tin kỹ thuật số và trực tuyến tốt nhất cùng các dịch vụ tham khảo

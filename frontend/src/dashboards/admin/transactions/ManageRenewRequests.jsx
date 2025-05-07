@@ -29,7 +29,7 @@ const ManageRenewRequests = () => {
             console.log(updatedState);
             return updatedState;
         })
-        return "Request processed successfully!";
+        return "Yêu cầu gia hạn sách đã được xử lý ";
       },
       error: (err) => {
         console.log(err);

@@ -25,9 +25,9 @@ function calculateDaysLeft(dueDateISO) {
   if (daysDifference > 0) {
     return `${daysDifference} ngày`;
   } else if (daysDifference === 0) {
-    return "Due today";
+    return "Ngày hết hạn";
   } else {
-    return `${Math.abs(daysDifference)} ngày`;
+    return "Đã hết hạn";
   }
 }
 
@@ -141,7 +141,7 @@ const BorrowedBooks = () => {
       {/* MODAL FOR RENEW */}
       <Modal
         show={showModal}
-        title={"Renew Book"}
+        title={"Gia hạn sách "}
         onClose={() => {
           setShowModal(false);
         }}
